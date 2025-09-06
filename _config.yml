@@ -22,7 +22,7 @@ repository               : ""
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "images/me.png"
+  avatar           : "me.png"
   name             : "Jiaxin Zhang"
   pronouns         : # example: "she/her"  
   bio              : # "Short biography for the left-hand sidebar"
