@@ -8,9 +8,7 @@ redirect_from:
 ---
 
 
-News
------
-∙ **[01/2026]** 🎉🎉🎉 Our work <a href="xxxx" style="text-decoration:none;">test</a> is accepted by 
+
 
 Education
 -----
