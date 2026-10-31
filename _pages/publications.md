@@ -26,7 +26,9 @@ author_profile: true
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, P. Zhang, H. Cheng, X. Chen, H. Xu, K. Ding, L. Jin<br />
-<i>Pattern Recognition</i>, 2026
+<i>Pattern Recognition</i>, 2026<br />
+<a href='https://doi.org/10.1016/j.patcog.2025.112191'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/ZZZHANG-jx/DocAligner'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocAligner.svg?style=social&label=Star' alt='GitHub stars'></a>
 </font>
 </p>
 
@@ -35,7 +37,8 @@ author_profile: true
 <p style="line-height:1.1">
 <font size="2">
 W. Yang, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
-<i>Pattern Recognition</i>, 2026
+<i>Pattern Recognition</i>, 2026<br />
+<a href='https://doi.org/10.1016/j.patcog.2025.111872'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -80,7 +83,8 @@ TIM, 2025<br />
 <p style="line-height:1.1">
 <font size="2">
 P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
-<i>International Journal of Computer Vision</i>, 133(7), 3891–3917, 2025
+<i>International Journal of Computer Vision</i>, 133(7), 3891–3917, 2025<br />
+<a href='https://doi.org/10.1007/s11263-025-02353-2'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -89,7 +93,8 @@ P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<br />
-<i>arXiv preprint</i> arXiv:2501.19036, 2025
+<i>arXiv preprint</i> arXiv:2501.19036, 2025<br />
+<a href='https://arxiv.org/abs/2501.19036'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -98,7 +103,8 @@ H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<b
 <p style="line-height:1.1">
 <font size="2">
 C. Liu, Q. Jiang, D. Peng, Y. Kong, <strong><u>Jiaxin Zhang</u></strong>, L. Xiong, J. Duan, C. Sun, L. Jin<br />
-<i>Neurocomputing</i>, 620, 129241, 2025
+<i>Neurocomputing</i>, 620, 129241, 2025<br />
+<a href='https://doi.org/10.1016/j.neucom.2024.129241'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -107,7 +113,8 @@ C. Liu, Q. Jiang, D. Peng, Y. Kong, <strong><u>Jiaxin Zhang</u></strong>, L. Xio
 <p style="line-height:1.1">
 <font size="2">
 P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang, J. Liu, Z. Yang, W. Zhou, et al.<br />
-<i>arXiv preprint</i> arXiv:2507.15085, 2025
+<i>arXiv preprint</i> arXiv:2507.15085, 2025<br />
+<a href='https://arxiv.org/abs/2507.15085'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -135,7 +142,8 @@ CVPR, 2024<br />
 <p style="line-height:1.1">
 <font size="2">
 D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding, F. Guo, L. Jin<br />
-<i>ICML</i>, 2024
+<i>ICML</i>, 2024<br />
+<a href='https://proceedings.mlr.press/v235/peng24e.html'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -146,7 +154,8 @@ D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding,
 <p style="line-height:1.1">
 <font size="2">
 H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie, J. Li, K. Ding, L. Jin<br />
-<i>CVPR</i>, 2023
+<i>CVPR</i>, 2023<br />
+<a href='https://openaccess.thecvf.com/content/CVPR2023/html/Cheng_M6Doc_A_Large-Scale_Multi-Format_Multi-Type_Multi-Layout_Multi-Language_Multi-Annotation_Category_Dataset_CVPR_2023_paper.html'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -155,7 +164,8 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, L. Liang, K. Ding, F. Guo, L. Jin<br />
-<i>IEEE Transactions on Artificial Intelligence</i>, 5(5), 2319–2330, 2023
+<i>IEEE Transactions on Artificial Intelligence</i>, 5(5), 2319–2330, 2023<br />
+<a href='https://doi.org/10.1109/tai.2023.3321257'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -164,7 +174,8 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 <p style="line-height:1.1">
 <font size="2">
 H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
-<i>Pattern Recognition Letters</i>, 165, 146–153, 2023
+<i>Pattern Recognition Letters</i>, 165, 146–153, 2023<br />
+<a href='https://doi.org/10.1016/j.patrec.2022.12.014'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -175,7 +186,8 @@ H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, C. Luo, L. Jin, F. Guo, K. Ding<br />
-<i>arXiv preprint</i> arXiv:2207.11515, 2022
+<i>ACM MM</i>, 2022<br />
+<a href='https://doi.org/10.1145/3503161.3548214'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -184,7 +196,8 @@ H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, B. Chen, X. Zhang, L. Jin<br />
-<i>ACCV</i>, 643–659, 2022
+<i>ACCV</i>, 643–659, 2022<br />
+<a href='https://doi.org/10.1007/978-3-031-26293-7_38'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -193,7 +206,8 @@ Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, B. Chen, X. Zhang, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 B. Chen, D. Peng, <strong><u>Jiaxin Zhang</u></strong>, Y. Ren, L. Jin<br />
-<i>ICFHR</i>, 545–561, 2022
+<i>ICFHR</i>, 545–561, 2022<br />
+<a href='https://doi.org/10.1007/978-3-031-21648-0_37'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -202,6 +216,7 @@ B. Chen, D. Peng, <strong><u>Jiaxin Zhang</u></strong>, Y. Ren, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 J. Jiang, S. Lai, L. Jin, Y. Zhu, <strong><u>Jiaxin Zhang</u></strong>, B. Chen<br />
-<i>Neurocomputing</i>, 507, 345–357, 2022
+<i>Neurocomputing</i>, 507, 345–357, 2022<br />
+<a href='https://doi.org/10.1016/j.neucom.2022.08.017'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>

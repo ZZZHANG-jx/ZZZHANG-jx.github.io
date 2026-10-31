@@ -1,0 +1,86 @@
+[
+  {
+    "title": "DocAligner: Automating the Annotation of Photographed Documents through Real-Virtual Alignment",
+    "link": "https://doi.org/10.1016/j.patcog.2025.112191",
+    "doi": "10.1016/j.patcog.2025.112191",
+    "venue": "Pattern Recognition"
+  },
+  {
+    "title": "AutoScaler: Self Scale Alignment for Handwritten Mathematical Expression Recognition",
+    "link": "https://doi.org/10.1016/j.patcog.2025.111872",
+    "doi": "10.1016/j.patcog.2025.111872",
+    "venue": "Pattern Recognition"
+  },
+  {
+    "title": "Smaller but Better: Unifying Layout Generation with Smaller Large Language Models",
+    "link": "https://doi.org/10.1007/s11263-025-02353-2",
+    "doi": "10.1007/s11263-025-02353-2",
+    "venue": "International Journal of Computer Vision"
+  },
+  {
+    "title": "QT-TextSR: Enhancing Scene Text Image Super-Resolution via Efficient Interaction with Text Recognition",
+    "link": "https://doi.org/10.1016/j.neucom.2024.129241",
+    "doi": "10.1016/j.neucom.2024.129241",
+    "venue": "Neurocomputing"
+  },
+  {
+    "title": "Appearance Enhancement for Camera-Captured Document Images in the Wild",
+    "link": "https://doi.org/10.1109/tai.2023.3321257",
+    "doi": "10.1109/tai.2023.3321257",
+    "venue": "IEEE Transactions on Artificial Intelligence"
+  },
+  {
+    "title": "Scene Table Structure Recognition with Segmentation Collaboration and Alignment",
+    "link": "https://doi.org/10.1016/j.patrec.2022.12.014",
+    "doi": "10.1016/j.patrec.2022.12.014",
+    "venue": "Pattern Recognition Letters"
+  },
+  {
+    "title": "Looking from a Higher-Level Perspective: Attention and Recognition Enhanced Multi-Scale Scene Text Segmentation",
+    "link": null,
+    "doi": null,
+    "venue": null
+  },
+  {
+    "title": "Complex Table Structure Recognition in the Wild Using Transformer and Identity Matrix-Based Augmentation",
+    "link": null,
+    "doi": null,
+    "venue": null
+  },
+  {
+    "title": "Forgery-Free Signature Verification with Stroke-Aware Cycle-Consistent Generative Adversarial Network",
+    "link": "https://doi.org/10.1016/j.neucom.2022.08.017",
+    "doi": "10.1016/j.neucom.2022.08.017",
+    "venue": "Neurocomputing"
+  },
+  {
+    "title": "M6Doc: A Large-Scale Multi-Format, Multi-Type, Multi-Layout, Multi-Language, Multi-Annotation Category Dataset for Modern Document Layout Analysis",
+    "link": null,
+    "doi": null,
+    "venue": null
+  },
+  {
+    "title": "UPOCR: Towards Unified Pixel-Level OCR Interface",
+    "link": null,
+    "doi": null,
+    "venue": null
+  },
+  {
+    "title": "Beyond Token Compression: A Training-Free Reduction Framework for Efficient Visual Processing in MLLMs",
+    "link": "https://arxiv.org/abs/2501.19036",
+    "doi": null,
+    "venue": null
+  },
+  {
+    "title": "OCRGenBench: A Comprehensive Benchmark for Evaluating OCR Generative Capabilities",
+    "link": "https://arxiv.org/abs/2507.15085",
+    "doi": null,
+    "venue": null
+  },
+  {
+    "title": "Marior: Margin Removal and Iterative Content Rectification for Document Dewarping in the Wild",
+    "link": "https://doi.org/10.1145/3503161.3548214",
+    "doi": "10.1145/3503161.3548214",
+    "venue": "Proceedings of the 30th ACM International Conference on Multimedia"
+  }
+]
