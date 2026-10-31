@@ -66,6 +66,7 @@ J. Li, <strong><u>Jiaxin Zhang</u></strong>, J. Guo, Q. Zhang, X. Zheng, Q. Yin,
 J. Li, <strong><u>Jiaxin Zhang</u></strong>, Q. Yin, Q. Zhang, X. Zheng, W. Zeng, P. Guo<br />
 <i>Pattern Recognition</i>, 183, 114832, 2026<br />
 <a href='https://doi.org/10.1016/j.patcog.2026.114832'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/vvvvvair/TPGCAT'><img src='https://img.shields.io/github/stars/vvvvvair/TPGCAT.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 
