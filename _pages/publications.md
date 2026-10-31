@@ -5,6 +5,14 @@ permalink: /publications/
 author_profile: true
 ---
 
+<style>
+  .pub-row { display: flex; gap: 16px; align-items: flex-start; margin: 2px 0 18px; }
+  .pub-fig { flex: 0 0 160px; }
+  .pub-fig img { width: 160px; height: auto; display: block; border-radius: 3px; border: 1px solid #e8e8e8; }
+  .pub-text { flex: 1 1 auto; min-width: 0; }
+  .pub-text > h3 { margin-top: 0; }
+</style>
+
 <p align="right" style="line-height:1.2">
 <font size="2">
 <strong>Jiaxin Zhang</strong> — full list with PDFs on <a href="https://scholar.google.com/citations?user=pXh33zUAAAAJ&hl=zh-CN">Google Scholar</a>
@@ -18,8 +26,7 @@ author_profile: true
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, P. Zhang, H. Cheng, X. Chen, H. Xu, K. Ding, L. Jin<br />
-<i>Pattern Recognition</i>, 2026<br />
-<br />
+<i>Pattern Recognition</i>, 2026
 </font>
 </p>
 
@@ -28,16 +35,17 @@ author_profile: true
 <p style="line-height:1.1">
 <font size="2">
 W. Yang, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
-<i>Pattern Recognition</i>, 2026<br />
-<br />
+<i>Pattern Recognition</i>, 2026
 </font>
 </p>
 
 ## 2025
 
 -----
-<img style="float: left; margin:5px 10px" src="../images/publication_imgs/dockylin.png" width="160" height="100">
-### DocKylin: A Large Multimodal Model for Visual Document Understanding with Efficient Visual Slimming
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/dockylin.png" alt="DocKylin overview" /></div>
+<div class="pub-text">
+<h3>DocKylin: A Large Multimodal Model for Visual Document Understanding with Efficient Visual Slimming</h3>
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, Wentao Yang, Songxuan Lai, Zecheng Xie, Lianwen Jin*<br />
@@ -47,10 +55,14 @@ AAAI, 2025<br />
 <br />
 </font>
 </p>
+</div>
+</div>
 
 -----
-<img style="float: left; margin:5px 10px" src="../images/publication_imgs/watermeter.png" width="160" height="80">
-### Towards Accurate Readings of Water Meters by Eliminating Transition Error: New Dataset and Effective Solution
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/watermeter.png" alt="Water meter reading model" /></div>
+<div class="pub-text">
+<h3>Towards Accurate Readings of Water Meters by Eliminating Transition Error: New Dataset and Effective Solution</h3>
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, Daizhen Jia, Chongyu Liu, Dezhi Peng, Bangdong Chen, Xue Gao and Lianwen Jin*<br />
@@ -60,14 +72,15 @@ TIM, 2025<br />
 <br />
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### Smaller but Better: Unifying Layout Generation with Smaller Large Language Models
 <p style="line-height:1.1">
 <font size="2">
 P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
-<i>International Journal of Computer Vision</i>, 133(7), 3891–3917, 2025<br />
-<br />
+<i>International Journal of Computer Vision</i>, 133(7), 3891–3917, 2025
 </font>
 </p>
 
@@ -76,8 +89,7 @@ P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<br />
-<i>arXiv preprint</i> arXiv:2501.19036, 2025<br />
-<br />
+<i>arXiv preprint</i> arXiv:2501.19036, 2025
 </font>
 </p>
 
@@ -86,8 +98,7 @@ H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<b
 <p style="line-height:1.1">
 <font size="2">
 C. Liu, Q. Jiang, D. Peng, Y. Kong, <strong><u>Jiaxin Zhang</u></strong>, L. Xiong, J. Duan, C. Sun, L. Jin<br />
-<i>Neurocomputing</i>, 620, 129241, 2025<br />
-<br />
+<i>Neurocomputing</i>, 620, 129241, 2025
 </font>
 </p>
 
@@ -96,16 +107,17 @@ C. Liu, Q. Jiang, D. Peng, Y. Kong, <strong><u>Jiaxin Zhang</u></strong>, L. Xio
 <p style="line-height:1.1">
 <font size="2">
 P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang, J. Liu, Z. Yang, W. Zhou, et al.<br />
-<i>arXiv preprint</i> arXiv:2507.15085, 2025<br />
-<br />
+<i>arXiv preprint</i> arXiv:2507.15085, 2025
 </font>
 </p>
 
 ## 2024
 
 -----
-<img style="float: left; margin:5px 10px" src="../images/publication_imgs/docres.jpg" width="160" height="120">
-### DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/docres.jpg" alt="DocRes framework" /></div>
+<div class="pub-text">
+<h3>DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks</h3>
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, Dezhi Peng, Chongyu Liu, Peirong Zhang, Lianwen Jin*<br />
@@ -115,14 +127,15 @@ CVPR, 2024<br />
 <br />
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### UPOCR: Towards Unified Pixel-Level OCR Interface
 <p style="line-height:1.1">
 <font size="2">
 D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding, F. Guo, L. Jin<br />
-<i>ICML</i>, 2024<br />
-<br />
+<i>ICML</i>, 2024
 </font>
 </p>
 
@@ -133,8 +146,7 @@ D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding,
 <p style="line-height:1.1">
 <font size="2">
 H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie, J. Li, K. Ding, L. Jin<br />
-<i>CVPR</i>, 2023<br />
-<br />
+<i>CVPR</i>, 2023
 </font>
 </p>
 
@@ -143,8 +155,7 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, L. Liang, K. Ding, F. Guo, L. Jin<br />
-<i>IEEE Transactions on Artificial Intelligence</i>, 5(5), 2319–2330, 2023<br />
-<br />
+<i>IEEE Transactions on Artificial Intelligence</i>, 5(5), 2319–2330, 2023
 </font>
 </p>
 
@@ -153,8 +164,7 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 <p style="line-height:1.1">
 <font size="2">
 H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
-<i>Pattern Recognition Letters</i>, 165, 146–153, 2023<br />
-<br />
+<i>Pattern Recognition Letters</i>, 165, 146–153, 2023
 </font>
 </p>
 
@@ -165,8 +175,7 @@ H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, C. Luo, L. Jin, F. Guo, K. Ding<br />
-<i>arXiv preprint</i> arXiv:2207.11515, 2022<br />
-<br />
+<i>arXiv preprint</i> arXiv:2207.11515, 2022
 </font>
 </p>
 
@@ -175,8 +184,7 @@ H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, B. Chen, X. Zhang, L. Jin<br />
-<i>ACCV</i>, 643–659, 2022<br />
-<br />
+<i>ACCV</i>, 643–659, 2022
 </font>
 </p>
 
@@ -185,8 +193,7 @@ Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, B. Chen, X. Zhang, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 B. Chen, D. Peng, <strong><u>Jiaxin Zhang</u></strong>, Y. Ren, L. Jin<br />
-<i>ICFHR</i>, 545–561, 2022<br />
-<br />
+<i>ICFHR</i>, 545–561, 2022
 </font>
 </p>
 
@@ -195,7 +202,6 @@ B. Chen, D. Peng, <strong><u>Jiaxin Zhang</u></strong>, Y. Ren, L. Jin<br />
 <p style="line-height:1.1">
 <font size="2">
 J. Jiang, S. Lai, L. Jin, Y. Zhu, <strong><u>Jiaxin Zhang</u></strong>, B. Chen<br />
-<i>Neurocomputing</i>, 507, 345–357, 2022<br />
-<br />
+<i>Neurocomputing</i>, 507, 345–357, 2022
 </font>
 </p>
