@@ -138,6 +138,17 @@ P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang
 </div>
 </div>
 
+-----
+### Enhancing Document Dewarping Evaluation: A New Metric with Improved Accuracy and Efficiency
+<p style="line-height:1.1">
+<font size="2">
+<strong><u>Jiaxin Zhang</u></strong>, P. Zhang, D. Peng, H. Xu, L. Jin<br />
+<i>Pattern Recognition Letters</i>, 195, 51–58, 2025<br />
+<a href='https://doi.org/10.1016/j.patrec.2025.04.038'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/ZZZHANG-jx/DocAligner-Distortion'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocAligner-Distortion.svg?style=social&label=Star' alt='Code'></a>
+</font>
+</p>
+
 ## 2024
 
 -----
@@ -196,6 +207,7 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 <strong><u>Jiaxin Zhang</u></strong>, L. Liang, K. Ding, F. Guo, L. Jin<br />
 <i>IEEE Transactions on Artificial Intelligence</i>, 5(5), 2319–2330, 2023<br />
 <a href='https://doi.org/10.1109/tai.2023.3321257'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/ZZZHANG-jx/GCDRNet'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/GCDRNet.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 
@@ -221,6 +233,7 @@ H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <strong><u>Jiaxin Zhang</u></strong>, C. Luo, L. Jin, F. Guo, K. Ding<br />
 <i>ACM MM</i>, 2022<br />
 <a href='https://doi.org/10.1145/3503161.3548214'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/ZZZHANG-jx/Marior'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/Marior.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 </div>
