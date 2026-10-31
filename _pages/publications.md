@@ -22,7 +22,10 @@ author_profile: true
 ## 2026
 
 -----
-### DocAligner: Automating the Annotation of Photographed Documents through Real-Virtual Alignment
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/docaligner.jpg" alt="DocAligner pipeline" /></div>
+<div class="pub-text">
+<h3>DocAligner: Automating the Annotation of Photographed Documents through Real-Virtual Alignment</h3>
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, P. Zhang, H. Cheng, X. Chen, H. Xu, K. Ding, L. Jin<br />
@@ -31,6 +34,8 @@ author_profile: true
 <a href='https://github.com/ZZZHANG-jx/DocAligner'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocAligner.svg?style=social&label=Star' alt='GitHub stars'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### AutoScaler: Self Scale Alignment for Handwritten Mathematical Expression Recognition
@@ -79,7 +84,10 @@ TIM, 2025<br />
 </div>
 
 -----
-### Smaller but Better: Unifying Layout Generation with Smaller Large Language Models
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/smallerbetter.jpg" alt="Layout generation across document types" /></div>
+<div class="pub-text">
+<h3>Smaller but Better: Unifying Layout Generation with Smaller Large Language Models</h3>
 <p style="line-height:1.1">
 <font size="2">
 P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
@@ -87,9 +95,14 @@ P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
 <a href='https://doi.org/10.1007/s11263-025-02353-2'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
-### Beyond Token Compression: A Training-Free Reduction Framework for Efficient Visual Processing in MLLMs
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/beyondtoken.jpg" alt="Decoder-only vs cross-attention architectures" /></div>
+<div class="pub-text">
+<h3>Beyond Token Compression: A Training-Free Reduction Framework for Efficient Visual Processing in MLLMs</h3>
 <p style="line-height:1.1">
 <font size="2">
 H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<br />
@@ -97,6 +110,8 @@ H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<b
 <a href='https://arxiv.org/abs/2501.19036'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### QT-TextSR: Enhancing Scene Text Image Super-Resolution via Efficient Interaction with Text Recognition
@@ -109,7 +124,10 @@ C. Liu, Q. Jiang, D. Peng, Y. Kong, <strong><u>Jiaxin Zhang</u></strong>, L. Xio
 </p>
 
 -----
-### OCRGenBench: A Comprehensive Benchmark for Evaluating OCR Generative Capabilities
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/ocrgenbench.jpg" alt="OCRGenBench task taxonomy" /></div>
+<div class="pub-text">
+<h3>OCRGenBench: A Comprehensive Benchmark for Evaluating OCR Generative Capabilities</h3>
 <p style="line-height:1.1">
 <font size="2">
 P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang, J. Liu, Z. Yang, W. Zhou, et al.<br />
@@ -117,6 +135,8 @@ P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang
 <a href='https://arxiv.org/abs/2507.15085'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+</div>
+</div>
 
 ## 2024
 
@@ -138,7 +158,10 @@ CVPR, 2024<br />
 </div>
 
 -----
-### UPOCR: Towards Unified Pixel-Level OCR Interface
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/upocr.jpg" alt="UPOCR unified pixel-level OCR interface" /></div>
+<div class="pub-text">
+<h3>UPOCR: Towards Unified Pixel-Level OCR Interface</h3>
 <p style="line-height:1.1">
 <font size="2">
 D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding, F. Guo, L. Jin<br />
@@ -146,11 +169,16 @@ D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding,
 <a href='https://proceedings.mlr.press/v235/peng24e.html'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+</div>
+</div>
 
 ## 2023
 
 -----
-### M6Doc: A Large-Scale Multi-Format, Multi-Type, Multi-Layout, Multi-Language, Multi-Annotation Category Dataset for Modern Document Layout Analysis
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/m6doc.jpg" alt="M6Doc dataset samples" /></div>
+<div class="pub-text">
+<h3>M6Doc: A Large-Scale Multi-Format, Multi-Type, Multi-Layout, Multi-Language, Multi-Annotation Category Dataset for Modern Document Layout Analysis</h3>
 <p style="line-height:1.1">
 <font size="2">
 H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie, J. Li, K. Ding, L. Jin<br />
@@ -158,6 +186,8 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 <a href='https://openaccess.thecvf.com/content/CVPR2023/html/Cheng_M6Doc_A_Large-Scale_Multi-Format_Multi-Type_Multi-Layout_Multi-Language_Multi-Annotation_Category_Dataset_CVPR_2023_paper.html'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### Appearance Enhancement for Camera-Captured Document Images in the Wild
@@ -182,7 +212,10 @@ H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 ## 2022
 
 -----
-### Marior: Margin Removal and Iterative Content Rectification for Document Dewarping in the Wild
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/marior.jpg" alt="Document dewarping comparison" /></div>
+<div class="pub-text">
+<h3>Marior: Margin Removal and Iterative Content Rectification for Document Dewarping in the Wild</h3>
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, C. Luo, L. Jin, F. Guo, K. Ding<br />
@@ -190,6 +223,8 @@ H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <a href='https://doi.org/10.1145/3503161.3548214'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### Looking from a Higher-Level Perspective: Attention and Recognition Enhanced Multi-Scale Scene Text Segmentation
