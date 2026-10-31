@@ -141,12 +141,13 @@ P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
 <div class="pub-row">
 <div class="pub-fig"><img src="../images/publication_imgs/beyondtoken.jpg" alt="Decoder-only vs cross-attention architectures" /></div>
 <div class="pub-text">
-<h3>Beyond Token Compression: A Training-Free Reduction Framework for Efficient Visual Processing in MLLMs</h3>
+<h3>RedundancyLens: Revealing and Exploiting Visual Token Processing Redundancy for Efficient Decoder-Only MLLMs</h3>
 <p style="line-height:1.1">
 <font size="2">
 H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<br />
-<i>arXiv preprint</i> arXiv:2501.19036, 2025<br />
-<a href='https://arxiv.org/abs/2501.19036'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<i>Findings of ACL</i>, 2025<br />
+<a href='https://aclanthology.org/2025.findings-acl.1233/'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/L-Hugh/RedundancyLens'><img src='https://img.shields.io/github/stars/L-Hugh/RedundancyLens.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 </div>
