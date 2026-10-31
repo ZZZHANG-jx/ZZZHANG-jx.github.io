@@ -38,7 +38,10 @@ author_profile: true
 </div>
 
 -----
-### AutoScaler: Self Scale Alignment for Handwritten Mathematical Expression Recognition
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/autoscaler.jpg" alt="AutoScaler framework" /></div>
+<div class="pub-text">
+<h3>AutoScaler: Self Scale Alignment for Handwritten Mathematical Expression Recognition</h3>
 <p style="line-height:1.1">
 <font size="2">
 W. Yang, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
@@ -47,6 +50,8 @@ W. Yang, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <a href='https://github.com/SCUT-DLVCLab/AutoScaler'><img src='https://img.shields.io/github/stars/SCUT-DLVCLab/AutoScaler.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### Q-DRFormer: Query-Position Mapping Flow Prediction with Progressive Refinement for Document Rectification
@@ -165,7 +170,10 @@ P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang
 </div>
 
 -----
-### Enhancing Document Dewarping Evaluation: A New Metric with Improved Accuracy and Efficiency
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/enhancing.jpg" alt="Document dewarping evaluation metric" /></div>
+<div class="pub-text">
+<h3>Enhancing Document Dewarping Evaluation: A New Metric with Improved Accuracy and Efficiency</h3>
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, P. Zhang, D. Peng, H. Xu, L. Jin<br />
@@ -174,6 +182,8 @@ P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang
 <a href='https://github.com/ZZZHANG-jx/DocAligner-Distortion'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocAligner-Distortion.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### Towards Real-World Document Specular Highlight Removal: The DocHighlight Dataset and DocSHRNet Method
@@ -222,7 +232,10 @@ D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding,
 </div>
 
 -----
-### LEGO: Self-Supervised Representation Learning for Scene Text Images
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/lego.jpg" alt="LEGO self-supervised pretraining" /></div>
+<div class="pub-text">
+<h3>LEGO: Self-Supervised Representation Learning for Scene Text Images</h3>
 <p style="line-height:1.1">
 <font size="2">
 Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
@@ -230,6 +243,8 @@ Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <a href='https://arxiv.org/abs/2408.02036'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+</div>
+</div>
 
 ## 2023
 
@@ -250,7 +265,10 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 </div>
 
 -----
-### Appearance Enhancement for Camera-Captured Document Images in the Wild
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/appearance.jpg" alt="GCDRNet architecture" /></div>
+<div class="pub-text">
+<h3>Appearance Enhancement for Camera-Captured Document Images in the Wild</h3>
 <p style="line-height:1.1">
 <font size="2">
 <strong><u>Jiaxin Zhang</u></strong>, L. Liang, K. Ding, F. Guo, L. Jin<br />
@@ -259,6 +277,8 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 <a href='https://github.com/ZZZHANG-jx/GCDRNet'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/GCDRNet.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### Scene Table Structure Recognition with Segmentation Collaboration and Alignment
@@ -289,7 +309,10 @@ H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 </div>
 
 -----
-### Looking from a Higher-Level Perspective: Attention and Recognition Enhanced Multi-Scale Scene Text Segmentation
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/higherlevel.jpg" alt="Multi-scale scene text segmentation examples" /></div>
+<div class="pub-text">
+<h3>Looking from a Higher-Level Perspective: Attention and Recognition Enhanced Multi-Scale Scene Text Segmentation</h3>
 <p style="line-height:1.1">
 <font size="2">
 Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, B. Chen, X. Zhang, L. Jin<br />
@@ -297,6 +320,8 @@ Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, B. Chen, X. Zhang, L. Jin<br />
 <a href='https://doi.org/10.1007/978-3-031-26293-7_38'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
 ### Complex Table Structure Recognition in the Wild Using Transformer and Identity Matrix-Based Augmentation

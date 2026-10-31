@@ -22,6 +22,11 @@ PAPERS = {
     "beyondtoken": "https://arxiv.org/pdf/2501.19036",
     "ocrgenbench": "https://arxiv.org/pdf/2507.15085",
     "smallerbetter": "https://arxiv.org/pdf/2502.14005",
+    "lego": "https://arxiv.org/pdf/2408.02036",
+    "higherlevel": (
+        "https://openaccess.thecvf.com/content/ACCV2022/papers/"
+        "Ren_Looking_from_a_Higher-level_Perspective_Attention_and_Recognition_Enhanced_Multi-scale_ACCV_2022_paper.pdf"
+    ),
     "m6doc": (
         "https://openaccess.thecvf.com/content/CVPR2023/papers/"
         "Cheng_M6Doc_A_Large-Scale_Multi-Format_Multi-Type_Multi-Layout_Multi-Language_"

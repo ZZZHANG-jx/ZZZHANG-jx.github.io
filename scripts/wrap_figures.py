@@ -12,6 +12,11 @@ FIGURES = {
     "UPOCR: Towards Unified": ("upocr.jpg", "UPOCR unified pixel-level OCR interface"),
     "M6Doc: A Large-Scale": ("m6doc.jpg", "M6Doc dataset samples"),
     "Smaller but Better": ("smallerbetter.jpg", "Layout generation across document types"),
+    "AutoScaler: Self Scale": ("autoscaler.jpg", "AutoScaler framework"),
+    "Appearance Enhancement": ("appearance.jpg", "GCDRNet architecture"),
+    "LEGO: Self-Supervised": ("lego.jpg", "LEGO self-supervised pretraining"),
+    "Looking from a Higher-Level": ("higherlevel.jpg", "Multi-scale scene text segmentation examples"),
+    "Enhancing Document Dewarping Evaluation": ("enhancing.jpg", "Document dewarping evaluation metric"),
     "Marior: Margin Removal": ("marior.jpg", "Document dewarping comparison"),
 }
 
