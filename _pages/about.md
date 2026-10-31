@@ -23,7 +23,8 @@ I did my research training at South China University of Technology, and I curren
 
 ## News
 
-- **[2026]** Two papers accepted to *Pattern Recognition*: DocAligner and AutoScaler.
+- **[2026]** **Q-DRFormer** accepted to *ACM Transactions on Graphics*.
+- **[2026]** Three papers accepted to *Pattern Recognition*: DocAligner, AutoScaler, and Text Prior-Guided Cell Alignment.
 - **[2025]** **Dockylin** accepted to *AAAI 2025*.
 - **[2025]** **OCRGenBench** released as a benchmark for evaluating OCR generative capabilities.
 - **[2025]** "Smaller but Better" accepted to *International Journal of Computer Vision*.

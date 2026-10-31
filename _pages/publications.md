@@ -44,6 +44,28 @@ author_profile: true
 W. Yang, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 <i>Pattern Recognition</i>, 2026<br />
 <a href='https://doi.org/10.1016/j.patcog.2025.111872'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/SCUT-DLVCLab/AutoScaler'><img src='https://img.shields.io/github/stars/SCUT-DLVCLab/AutoScaler.svg?style=social&label=Star' alt='Code'></a>
+</font>
+</p>
+
+-----
+### Q-DRFormer: Query-Position Mapping Flow Prediction with Progressive Refinement for Document Rectification
+<p style="line-height:1.1">
+<font size="2">
+J. Li, <strong><u>Jiaxin Zhang</u></strong>, J. Guo, Q. Zhang, X. Zheng, Q. Yin, W. Zeng<br />
+<i>ACM Transactions on Graphics</i>, 46(2), 1–16, 2026<br />
+<a href='https://doi.org/10.1145/3845993'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/vvvvvair/Q-DRFormer'><img src='https://img.shields.io/github/stars/vvvvvair/Q-DRFormer.svg?style=social&label=Star' alt='Code'></a>
+</font>
+</p>
+
+-----
+### Text Prior-Guided Cell Alignment with Transformer for Robust Table Structure Recognition
+<p style="line-height:1.1">
+<font size="2">
+J. Li, <strong><u>Jiaxin Zhang</u></strong>, Q. Yin, Q. Zhang, X. Zheng, W. Zeng, P. Guo<br />
+<i>Pattern Recognition</i>, 183, 114832, 2026<br />
+<a href='https://doi.org/10.1016/j.patcog.2026.114832'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
 
@@ -93,6 +115,7 @@ TIM, 2025<br />
 P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
 <i>International Journal of Computer Vision</i>, 133(7), 3891–3917, 2025<br />
 <a href='https://doi.org/10.1007/s11263-025-02353-2'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/NiceRingNode/LGGPT'><img src='https://img.shields.io/github/stars/NiceRingNode/LGGPT.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 </div>
@@ -120,6 +143,7 @@ H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<b
 C. Liu, Q. Jiang, D. Peng, Y. Kong, <strong><u>Jiaxin Zhang</u></strong>, L. Xiong, J. Duan, C. Sun, L. Jin<br />
 <i>Neurocomputing</i>, 620, 129241, 2025<br />
 <a href='https://doi.org/10.1016/j.neucom.2024.129241'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/lcy0604/QT-TextSR'><img src='https://img.shields.io/github/stars/lcy0604/QT-TextSR.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 
@@ -133,6 +157,7 @@ C. Liu, Q. Jiang, D. Peng, Y. Kong, <strong><u>Jiaxin Zhang</u></strong>, L. Xio
 P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang, J. Liu, Z. Yang, W. Zhou, et al.<br />
 <i>arXiv preprint</i> arXiv:2507.15085, 2025<br />
 <a href='https://arxiv.org/abs/2507.15085'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/NiceRingNode/OCRGenBench'><img src='https://img.shields.io/github/stars/NiceRingNode/OCRGenBench.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 </div>
@@ -146,6 +171,17 @@ P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang
 <i>Pattern Recognition Letters</i>, 195, 51–58, 2025<br />
 <a href='https://doi.org/10.1016/j.patrec.2025.04.038'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 <a href='https://github.com/ZZZHANG-jx/DocAligner-Distortion'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocAligner-Distortion.svg?style=social&label=Star' alt='Code'></a>
+</font>
+</p>
+
+-----
+### Towards Real-World Document Specular Highlight Removal: The DocHighlight Dataset and DocSHRNet Method
+<p style="line-height:1.1">
+<font size="2">
+H. Xu, <strong><u>Jiaxin Zhang</u></strong>, H. Cheng, P. Zhang, X. Zheng, L. Jin<br />
+<i>PRCV</i>, 109–124, 2025<br />
+<a href='https://doi.org/10.1007/978-981-95-5676-2_8'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/SCUT-DLVCLab/DocHighlight'><img src='https://img.shields.io/github/stars/SCUT-DLVCLab/DocHighlight.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 
@@ -178,10 +214,21 @@ CVPR, 2024<br />
 D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding, F. Guo, L. Jin<br />
 <i>ICML</i>, 2024<br />
 <a href='https://proceedings.mlr.press/v235/peng24e.html'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/shannanyinxiang/UPOCR'><img src='https://img.shields.io/github/stars/shannanyinxiang/UPOCR.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 </div>
 </div>
+
+-----
+### LEGO: Self-Supervised Representation Learning for Scene Text Images
+<p style="line-height:1.1">
+<font size="2">
+Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
+<i>arXiv preprint</i> arXiv:2408.02036, 2024<br />
+<a href='https://arxiv.org/abs/2408.02036'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+</font>
+</p>
 
 ## 2023
 
@@ -195,6 +242,7 @@ D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding,
 H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie, J. Li, K. Ding, L. Jin<br />
 <i>CVPR</i>, 2023<br />
 <a href='https://openaccess.thecvf.com/content/CVPR2023/html/Cheng_M6Doc_A_Large-Scale_Multi-Format_Multi-Type_Multi-Layout_Multi-Language_Multi-Annotation_Category_Dataset_CVPR_2023_paper.html'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+<a href='https://github.com/HCIILAB/M6Doc'><img src='https://img.shields.io/github/stars/HCIILAB/M6Doc.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
 </div>
@@ -268,3 +316,14 @@ J. Jiang, S. Lai, L. Jin, Y. Zhu, <strong><u>Jiaxin Zhang</u></strong>, B. Chen<
 <a href='https://doi.org/10.1016/j.neucom.2022.08.017'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
 </font>
 </p>
+
+-----
+### TextSRNet: Scene Text Super-Resolution Based on Contour Prior and Atrous Convolution
+<p style="line-height:1.1">
+<font size="2">
+J. Ma, L. Jin, <strong><u>Jiaxin Zhang</u></strong>, J. Jiang, Y. Xue, M. He<br />
+<i>ICPR</i>, 3252–3258, 2022<br />
+<a href='https://doi.org/10.1109/icpr56361.2022.9956491'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
+</font>
+</p>
+
