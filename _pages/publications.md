@@ -54,7 +54,10 @@ W. Yang, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
 </div>
 
 -----
-### Q-DRFormer: Query-Position Mapping Flow Prediction with Progressive Refinement for Document Rectification
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/qdformer.jpg" alt="Q-DRFormer pipeline" /></div>
+<div class="pub-text">
+<h3>Q-DRFormer: Query-Position Mapping Flow Prediction with Progressive Refinement for Document Rectification</h3>
 <p style="line-height:1.1">
 <font size="2">
 J. Li, <strong><u>Jiaxin Zhang</u></strong>, J. Guo, Q. Zhang, X. Zheng, Q. Yin, W. Zeng<br />
@@ -63,9 +66,14 @@ J. Li, <strong><u>Jiaxin Zhang</u></strong>, J. Guo, Q. Zhang, X. Zheng, Q. Yin,
 <a href='https://github.com/vvvvvair/Q-DRFormer'><img src='https://img.shields.io/github/stars/vvvvvair/Q-DRFormer.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
+</div>
+</div>
 
 -----
-### Text Prior-Guided Cell Alignment with Transformer for Robust Table Structure Recognition
+<div class="pub-row">
+<div class="pub-fig"><img src="../images/publication_imgs/tpgcat.jpg" alt="TPGCAT pipeline" /></div>
+<div class="pub-text">
+<h3>Text Prior-Guided Cell Alignment with Transformer for Robust Table Structure Recognition</h3>
 <p style="line-height:1.1">
 <font size="2">
 J. Li, <strong><u>Jiaxin Zhang</u></strong>, Q. Yin, Q. Zhang, X. Zheng, W. Zeng, P. Guo<br />
@@ -74,6 +82,8 @@ J. Li, <strong><u>Jiaxin Zhang</u></strong>, Q. Yin, Q. Zhang, X. Zheng, W. Zeng
 <a href='https://github.com/vvvvvair/TPGCAT'><img src='https://img.shields.io/github/stars/vvvvvair/TPGCAT.svg?style=social&label=Star' alt='Code'></a>
 </font>
 </p>
+</div>
+</div>
 
 ## 2025
 
