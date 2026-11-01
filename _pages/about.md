@@ -11,10 +11,15 @@ redirect_from:
   <div class="profile-bio">
     <h1 class="profile-name">Jiaxin Zhang</h1>
     <p>
+      I am a researcher at <strong>Huawei</strong>.
+    </p>
+    <p>
       I received my Ph.D., M.S., and B.S. degrees from
       <strong>South China University of Technology</strong> (SCUT), where I was advised by
-      Prof. Lianwen Jin. I am now a researcher at <strong>Huawei</strong>, and previously
-      interned at IntSig (CamScanner), Huawei Cloud, and LG.
+      Prof. Lianwen Jin.
+    </p>
+    <p>
+      During my Ph.D. studies, I interned at IntSig (CamScanner), Huawei Cloud, and LG.
     </p>
 
     <p class="profile-links">
