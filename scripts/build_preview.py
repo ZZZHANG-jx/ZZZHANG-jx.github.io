@@ -78,8 +78,8 @@ def build_sidebar(author):
         )
     if author.get("email"):
         rows.append(
-            f'<li><a href="mailto:{esc(author["email"])}"><i class="fas fa-fw fa-envelope '
-            f'icon-pad-right" aria-hidden="true"></i>Email</a></li>'
+            f'<li><i class="fas fa-fw fa-envelope '
+            f'icon-pad-right" aria-hidden="true"></i><span class="author-email">{esc(author["email"])}</span></li>'
         )
     if author.get("googlescholar"):
         rows.append(
