@@ -18,7 +18,9 @@ author_profile: false
 html { scroll-behavior: smooth; scroll-padding-top: 64px; }
 a { color: var(--link); text-decoration: none; }
 a:hover { color: var(--link-hover); text-decoration: none; }
-.paper-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
+.paper-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; justify-content: flex-start; }
+/* Match Shoufa Chen's content width so the list reads as a clean centered column. */
+.page__content, #main .archive { max-width: 1080px; margin-left: auto; margin-right: auto; }
 .paper-nav a { padding: 4px 12px; border: 1px solid var(--rule); border-radius: 999px; font-size: 14.5px; }
 .paper-nav a:hover { border-color: var(--link-hover); }
 .paper-nav .count { color: var(--muted); font-size: 13px; margin-left: 4px; }

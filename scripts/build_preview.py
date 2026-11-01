@@ -115,12 +115,6 @@ def build_masthead(site_title, nav):
         items.append(
             f'<li class="masthead__menu-item"><a href="{esc(target)}">{esc(link["title"])}</a></li>'
         )
-    items.append(
-        '<li id="theme-toggle" class="masthead__menu-item persist tail">'
-        '<a role="button" aria-labelledby="theme-icon">'
-        '<i id="theme-icon" class="fa-solid fa-sun" aria-hidden="true" title="toggle theme"></i>'
-        "</a></li>"
-    )
     return f"""<div class="masthead">
   <div class="masthead__inner-wrap">
     <div class="masthead__menu">
@@ -162,11 +156,18 @@ def wrap_page(*, site, author, nav, page, body_html, layout):
     title = page.get("title") or site.get("title", "")
     full_title = title if title == site.get("title") else f"{title} - {site.get('title', '')}"
 
+    # Honor author_profile: false (set in front matter or _config.yml) -> drop the
+    # academicpages sidebar so the page reads like a clean, custom homepage.
+    page_ap = page.get("author_profile")
+    site_ap = (site.get("author") or {}).get("author_profile")
+    show_sidebar = not (page_ap is False or site_ap is False)
+
     if layout == "archive":
         page_title = (page.get("title") or "").strip()
         h1 = f'<h1 class="page__title">{esc(page_title)}</h1>\n    ' if page_title else ""
+        sidebar = build_sidebar(author) if show_sidebar else ""
         content = f"""<div id="main" role="main">
-  {build_sidebar(author)}
+  {sidebar}
   <div class="archive">
     {h1}{body_html}
   </div>
