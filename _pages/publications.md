@@ -9,7 +9,7 @@ author_profile: true
   .pub-row { display: flex; gap: 16px; align-items: flex-start; margin: 2px 0 18px; }
   .pub-fig { flex: 0 0 160px; }
   .pub-fig img { width: 160px; height: auto; display: block; border-radius: 3px; border: 1px solid #e8e8e8; }
-  .pub-ph { width: 160px; height: 104px; box-sizing: border-box; border: 1px dashed #d3d3d3; border-radius: 3px; background: #fafafa; display: flex; align-items: center; justify-content: center; color: #b3b3b3; font-size: 11px; text-align: center; }
+  .pub-ph { width: 160px; min-height: 8px; }
   .pub-text { flex: 1 1 auto; min-width: 0; }
   .pub-text > h3 { margin-top: 0; }
 </style>
@@ -150,7 +150,7 @@ H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<b
 
 -----
 <div class="pub-row">
-<div class="pub-fig"><div class="pub-ph">Figure<br />unavailable</div></div>
+<div class="pub-fig"><div class="pub-ph"></div></div>
 <div class="pub-text">
 <h3>QT-TextSR: Enhancing Scene Text Image Super-Resolution via Efficient Interaction with Text Recognition</h3>
 <p style="line-height:1.1">
@@ -198,7 +198,7 @@ P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang
 
 -----
 <div class="pub-row">
-<div class="pub-fig"><div class="pub-ph">Figure<br />unavailable</div></div>
+<div class="pub-fig"><div class="pub-ph"></div></div>
 <div class="pub-text">
 <h3>Towards Real-World Document Specular Highlight Removal: The DocHighlight Dataset and DocSHRNet Method</h3>
 <p style="line-height:1.1">
@@ -298,7 +298,7 @@ H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie,
 
 -----
 <div class="pub-row">
-<div class="pub-fig"><div class="pub-ph">Figure<br />unavailable</div></div>
+<div class="pub-fig"><div class="pub-ph"></div></div>
 <div class="pub-text">
 <h3>Scene Table Structure Recognition with Segmentation Collaboration and Alignment</h3>
 <p style="line-height:1.1">
@@ -346,7 +346,7 @@ Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, B. Chen, X. Zhang, L. Jin<br />
 
 -----
 <div class="pub-row">
-<div class="pub-fig"><div class="pub-ph">Figure<br />unavailable</div></div>
+<div class="pub-fig"><div class="pub-ph"></div></div>
 <div class="pub-text">
 <h3>Complex Table Structure Recognition in the Wild Using Transformer and Identity Matrix-Based Augmentation</h3>
 <p style="line-height:1.1">
@@ -361,7 +361,7 @@ B. Chen, D. Peng, <strong><u>Jiaxin Zhang</u></strong>, Y. Ren, L. Jin<br />
 
 -----
 <div class="pub-row">
-<div class="pub-fig"><div class="pub-ph">Figure<br />unavailable</div></div>
+<div class="pub-fig"><div class="pub-ph"></div></div>
 <div class="pub-text">
 <h3>Forgery-Free Signature Verification with Stroke-Aware Cycle-Consistent Generative Adversarial Network</h3>
 <p style="line-height:1.1">
@@ -376,7 +376,7 @@ J. Jiang, S. Lai, L. Jin, Y. Zhu, <strong><u>Jiaxin Zhang</u></strong>, B. Chen<
 
 -----
 <div class="pub-row">
-<div class="pub-fig"><div class="pub-ph">Figure<br />unavailable</div></div>
+<div class="pub-fig"><div class="pub-ph"></div></div>
 <div class="pub-text">
 <h3>TextSRNet: Scene Text Super-Resolution Based on Contour Prior and Atrous Convolution</h3>
 <p style="line-height:1.1">
