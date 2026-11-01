@@ -45,7 +45,7 @@ redirect_from:
     </p>
   </div>
   <figure class="profile-photo">
-    <img src="../images/me.jpg" alt="Portrait of Jiaxin Zhang" width="208" height="208" decoding="async">
+    <img src="../images/me.jpg?v=2" alt="Portrait of Jiaxin Zhang" width="208" height="208" decoding="async">
   </figure>
 </section>
 
