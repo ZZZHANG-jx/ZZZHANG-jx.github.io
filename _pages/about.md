@@ -19,7 +19,7 @@ redirect_from:
       Prof. Lianwen Jin.
     </p>
     <p>
-      Previously, I interned at Huawei Cloud, IntSig (CamScanner), and LG.
+      Previously, I interned at Huawei Cloud, IntSig (CamScanner), and LG AI Research.
     </p>
 
     <p class="profile-links">
