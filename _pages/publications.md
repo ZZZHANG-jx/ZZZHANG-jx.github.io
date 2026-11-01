@@ -2,383 +2,291 @@
 layout: archive
 title: ""
 permalink: /publications/
-author_profile: true
+author_profile: false
 ---
 
 <style>
-  .pub-row { display: flex; gap: 16px; align-items: flex-start; margin: 2px 0 18px; }
-  .pub-fig { flex: 0 0 160px; }
-  .pub-fig img { width: 160px; height: auto; display: block; border-radius: 3px; border: 1px solid #e8e8e8; }
-  .pub-ph { width: 160px; min-height: 8px; }
-  .pub-text { flex: 1 1 auto; min-width: 0; }
-  .pub-text > h3 { margin-top: 0; }
-  .pub-nav { margin: 4px 0 22px; line-height: 2.1; font-size: 14px; }
-  .pub-nav a { display: inline-block; margin: 2px 16px 2px 0; color: #2a7ae2; text-decoration: none; white-space: nowrap; }
-  .pub-nav a:hover { text-decoration: underline; }
+:root {
+  --text: #222;
+  --muted: #666;
+  --link: #1772d0;
+  --link-hover: #f09228;
+  --rule: #e2e5e9;
+  --featured: #fffbe6;
+  --accent: #c0392b;
+}
+html { scroll-behavior: smooth; scroll-padding-top: 64px; }
+a { color: var(--link); text-decoration: none; }
+a:hover { color: var(--link-hover); text-decoration: none; }
+.paper-nav { display: flex; flex-wrap: wrap; gap: 8px; margin: 4px 0 18px; }
+.paper-nav a { padding: 4px 12px; border: 1px solid var(--rule); border-radius: 999px; font-size: 14.5px; }
+.paper-nav a:hover { border-color: var(--link-hover); }
+.paper-nav .count { color: var(--muted); font-size: 13px; margin-left: 4px; }
+.category { margin: 28px 0 8px; padding-bottom: 6px; border-bottom: 1px solid var(--rule); font-size: 19px; font-weight: 700; }
+.paper { display: grid; grid-template-columns: 250px minmax(0, 1fr); gap: 22px; align-items: center; margin-bottom: 6px; padding: 14px 12px; border-radius: 10px; }
+.paper-media { aspect-ratio: 16 / 9; overflow: hidden; border-radius: 8px; background: #f3f4f6; }
+.paper-media img, .paper-media video { display: block; width: 100%; height: 100%; object-fit: contain; }
+.paper-media.contain { background: #fff; border: 1px solid var(--rule); }
+.paper-body p { margin: 0; }
+.paper-title { margin: 0 0 4px; font-size: 17px; font-weight: 700; line-height: 1.35; }
+.paper-authors { font-size: 15px; }
+.paper-venue { margin-top: 4px !important; font-size: 15px; }
+.venue { font-weight: 700; }
+.venue-preprint { font-weight: 400; color: var(--muted); }
+.paper-links { margin-top: 2px !important; font-size: 15px; }
+.sep { color: #999; margin: 0 3px; }
+@media (max-width: 640px) {
+  .paper { grid-template-columns: 1fr; gap: 12px; padding: 14px 10px; }
+}
 </style>
 
-<p class="pub-nav">
-  <a href="#restoration">Document Restoration &amp; Enhancement</a>
-  <a href="#understanding">Document Understanding &amp; Layout</a>
-  <a href="#tables">Table Structure Recognition</a>
-  <a href="#scene-text">Scene Text &amp; OCR</a>
-  <a href="#multimodal">Multimodal &amp; Efficiency</a>
-  <a href="#handwriting">Handwriting &amp; Signature</a>
-</p>
+<nav class="paper-nav" aria-label="Paper categories">
+  <a href="#restoration">Document Restoration &amp; Enhancement <span class="count">7</span></a>
+  <a href="#understanding">Document Understanding &amp; Layout <span class="count">4</span></a>
+  <a href="#tables">Table Structure Recognition <span class="count">3</span></a>
+  <a href="#scene-text">Scene Text &amp; OCR <span class="count">6</span></a>
+  <a href="#multimodal">Multimodal &amp; Efficiency <span class="count">1</span></a>
+  <a href="#handwriting">Handwriting &amp; Signature <span class="count">2</span></a>
+</nav>
 
-<span id="restoration"></span>
-## Document Image Restoration & Enhancement
+<h3 class="category" id="restoration">Document Restoration &amp; Enhancement</h3>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/docaligner.jpg" alt="DocAligner pipeline" /></div>
-<div class="pub-text">
-<h3>DocAligner: Automating the Annotation of Photographed Documents through Real-Virtual Alignment</h3>
-<p style="line-height:1.1">
-<font size="2">
-<strong><u>Jiaxin Zhang</u></strong>, P. Zhang, H. Cheng, X. Chen, H. Xu, K. Ding, L. Jin<br />
-<i>Pattern Recognition</i>, 2026<br />
-<a href='https://doi.org/10.1016/j.patcog.2025.112191'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/ZZZHANG-jx/DocAligner'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocAligner.svg?style=social&label=Star' alt='GitHub stars'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/docaligner.jpg" alt="DocAligner pipeline" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1016/j.patcog.2025.112191">DocAligner: Automating the Annotation of Photographed Documents through Real-Virtual Alignment</a></h4>
+    <p class="paper-authors"><b>Jiaxin Zhang</b>, P. Zhang, H. Cheng, X. Chen, H. Xu, K. Ding, L. Jin</p>
+    <p class="paper-venue"><span class="venue">Pattern Recognition, 2026</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1016/j.patcog.2025.112191">Paper</a> <span class="sep">/</span> <a href="https://github.com/ZZZHANG-jx/DocAligner">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/qdformer.jpg" alt="Q-DRFormer pipeline" /></div>
-<div class="pub-text">
-<h3>Q-DRFormer: Query-Position Mapping Flow Prediction with Progressive Refinement for Document Rectification</h3>
-<p style="line-height:1.1">
-<font size="2">
-J. Li, <strong><u>Jiaxin Zhang</u></strong>, J. Guo, Q. Zhang, X. Zheng, Q. Yin, W. Zeng<br />
-<i>ACM Transactions on Graphics</i>, 46(2), 1–16, 2026<br />
-<a href='https://doi.org/10.1145/3845993'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/vvvvvair/Q-DRFormer'><img src='https://img.shields.io/github/stars/vvvvvair/Q-DRFormer.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/qdformer.jpg" alt="Q-DRFormer pipeline" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1145/3845993">Q-DRFormer: Query-Position Mapping Flow Prediction with Progressive Refinement for Document Rectification</a></h4>
+    <p class="paper-authors">J. Li, <b>Jiaxin Zhang</b>, J. Guo, Q. Zhang, X. Zheng, Q. Yin, W. Zeng</p>
+    <p class="paper-venue"><span class="venue">ACM Transactions on Graphics, 46(2), 1–16, 2026</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1145/3845993">Paper</a> <span class="sep">/</span> <a href="https://github.com/vvvvvair/Q-DRFormer">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><div class="pub-ph"></div></div>
-<div class="pub-text">
-<h3>Towards Real-World Document Specular Highlight Removal: The DocHighlight Dataset and DocSHRNet Method</h3>
-<p style="line-height:1.1">
-<font size="2">
-H. Xu, <strong><u>Jiaxin Zhang</u></strong>, H. Cheng, P. Zhang, X. Zheng, L. Jin<br />
-<i>PRCV</i>, 109–124, 2025<br />
-<a href='https://doi.org/10.1007/978-981-95-5676-2_8'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/SCUT-DLVCLab/DocHighlight'><img src='https://img.shields.io/github/stars/SCUT-DLVCLab/DocHighlight.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1007/978-981-95-5676-2_8">Towards Real-World Document Specular Highlight Removal: The DocHighlight Dataset and DocSHRNet Method</a></h4>
+    <p class="paper-authors">H. Xu, <b>Jiaxin Zhang</b>, H. Cheng, P. Zhang, X. Zheng, L. Jin</p>
+    <p class="paper-venue"><span class="venue">PRCV, 109–124, 2025</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1007/978-981-95-5676-2_8">Paper</a> <span class="sep">/</span> <a href="https://github.com/SCUT-DLVCLab/DocHighlight">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/enhancing.jpg" alt="Document dewarping evaluation metric" /></div>
-<div class="pub-text">
-<h3>Enhancing Document Dewarping Evaluation: A New Metric with Improved Accuracy and Efficiency</h3>
-<p style="line-height:1.1">
-<font size="2">
-<strong><u>Jiaxin Zhang</u></strong>, P. Zhang, D. Peng, H. Xu, L. Jin<br />
-<i>Pattern Recognition Letters</i>, 195, 51–58, 2025<br />
-<a href='https://doi.org/10.1016/j.patrec.2025.04.038'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/ZZZHANG-jx/DocAligner-Distortion'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocAligner-Distortion.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/enhancing.jpg" alt="Document dewarping evaluation metric" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1016/j.patrec.2025.04.038">Enhancing Document Dewarping Evaluation: A New Metric with Improved Accuracy and Efficiency</a></h4>
+    <p class="paper-authors"><b>Jiaxin Zhang</b>, P. Zhang, D. Peng, H. Xu, L. Jin</p>
+    <p class="paper-venue"><span class="venue">Pattern Recognition Letters, 195, 51–58, 2025</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1016/j.patrec.2025.04.038">Paper</a> <span class="sep">/</span> <a href="https://github.com/ZZZHANG-jx/DocAligner-Distortion">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/docres.jpg" alt="DocRes framework" /></div>
-<div class="pub-text">
-<h3>DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks</h3>
-<p style="line-height:1.1">
-<font size="2">
-<strong><u>Jiaxin Zhang</u></strong>, Dezhi Peng, Chongyu Liu, Peirong Zhang, Lianwen Jin*<br />
-CVPR, 2024<br />
-<a href='https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.html'><img src='https://img.shields.io/badge/Paper-fedcba'></a>
-<a href='https://github.com/ZZZHANG-jx/DocRes'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocRes.svg?style=social&label=Star'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/docres.jpg" alt="DocRes framework" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.html">DocRes: A Generalist Model Toward Unifying Document Image Restoration Tasks</a></h4>
+    <p class="paper-authors"><b>Jiaxin Zhang</b>, Dezhi Peng, Chongyu Liu, Peirong Zhang, Lianwen Jin*</p>
+    <p class="paper-venue"><span class="venue">CVPR, 2024</span></p>
+    <p class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2024/html/Zhang_DocRes_A_Generalist_Model_Toward_Unifying_Document_Image_Restoration_Tasks_CVPR_2024_paper.html">Paper</a> <span class="sep">/</span> <a href="https://github.com/ZZZHANG-jx/DocRes">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/appearance.jpg" alt="GCDRNet architecture" /></div>
-<div class="pub-text">
-<h3>Appearance Enhancement for Camera-Captured Document Images in the Wild</h3>
-<p style="line-height:1.1">
-<font size="2">
-<strong><u>Jiaxin Zhang</u></strong>, L. Liang, K. Ding, F. Guo, L. Jin<br />
-<i>IEEE Transactions on Artificial Intelligence</i>, 5(5), 2319–2330, 2023<br />
-<a href='https://doi.org/10.1109/tai.2023.3321257'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/ZZZHANG-jx/GCDRNet'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/GCDRNet.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/appearance.jpg" alt="GCDRNet architecture" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1109/tai.2023.3321257">Appearance Enhancement for Camera-Captured Document Images in the Wild</a></h4>
+    <p class="paper-authors"><b>Jiaxin Zhang</b>, L. Liang, K. Ding, F. Guo, L. Jin</p>
+    <p class="paper-venue"><span class="venue">IEEE Transactions on Artificial Intelligence, 5(5), 2319–2330, 2023</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1109/tai.2023.3321257">Paper</a> <span class="sep">/</span> <a href="https://github.com/ZZZHANG-jx/GCDRNet">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/marior.jpg" alt="Document dewarping comparison" /></div>
-<div class="pub-text">
-<h3>Marior: Margin Removal and Iterative Content Rectification for Document Dewarping in the Wild</h3>
-<p style="line-height:1.1">
-<font size="2">
-<strong><u>Jiaxin Zhang</u></strong>, C. Luo, L. Jin, F. Guo, K. Ding<br />
-ACM MM, 2022<br />
-<a href='https://doi.org/10.1145/3503161.3548214'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/ZZZHANG-jx/Marior'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/Marior.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/marior.jpg" alt="Document dewarping comparison" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1145/3503161.3548214">Marior: Margin Removal and Iterative Content Rectification for Document Dewarping in the Wild</a></h4>
+    <p class="paper-authors"><b>Jiaxin Zhang</b>, C. Luo, L. Jin, F. Guo, K. Ding</p>
+    <p class="paper-venue"><span class="venue">ACM MM, 2022</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1145/3503161.3548214">Paper</a> <span class="sep">/</span> <a href="https://github.com/ZZZHANG-jx/Marior">Code</a></p>
+  </div>
+</article>
 
-<span id="understanding"></span>
-## Document Understanding & Layout
+<h3 class="category" id="understanding">Document Understanding &amp; Layout</h3>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/dockylin.png" alt="DocKylin overview" /></div>
-<div class="pub-text">
-<h3>DocKylin: A Large Multimodal Model for Visual Document Understanding with Efficient Visual Slimming</h3>
-<p style="line-height:1.1">
-<font size="2">
-<strong><u>Jiaxin Zhang</u></strong>, Wentao Yang, Songxuan Lai, Zecheng Xie, Lianwen Jin*<br />
-AAAI, 2025<br />
-<a href='https://ojs.aaai.org/index.php/AAAI/article/view/33076'><img src='https://img.shields.io/badge/Paper-fedcba'></a>
-<a href='https://github.com/ZZZHANG-jx/DocKylin'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/DocKylin.svg?style=social&label=Star'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/dockylin.png" alt="DocKylin overview" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/33076">DocKylin: A Large Multimodal Model for Visual Document Understanding with Efficient Visual Slimming</a></h4>
+    <p class="paper-authors"><b>Jiaxin Zhang</b>, Wentao Yang, Songxuan Lai, Zecheng Xie, Lianwen Jin*</p>
+    <p class="paper-venue"><span class="venue">AAAI, 2025</span></p>
+    <p class="paper-links"><a href="https://ojs.aaai.org/index.php/AAAI/article/view/33076">Paper</a> <span class="sep">/</span> <a href="https://github.com/ZZZHANG-jx/DocKylin">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/smallerbetter.jpg" alt="Layout generation across document types" /></div>
-<div class="pub-text">
-<h3>Smaller but Better: Unifying Layout Generation with Smaller Large Language Models</h3>
-<p style="line-height:1.1">
-<font size="2">
-P. Zhang, <strong><u>Jiaxin Zhang</u></strong>, J. Cao, H. Li, L. Jin<br />
-<i>International Journal of Computer Vision</i>, 133(7), 3891–3917, 2025<br />
-<a href='https://doi.org/10.1007/s11263-025-02353-2'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/NiceRingNode/LGGPT'><img src='https://img.shields.io/github/stars/NiceRingNode/LGGPT.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/smallerbetter.jpg" alt="Layout generation across document types" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1007/s11263-025-02353-2">Smaller but Better: Unifying Layout Generation with Smaller Large Language Models</a></h4>
+    <p class="paper-authors">P. Zhang, <b>Jiaxin Zhang</b>, J. Cao, H. Li, L. Jin</p>
+    <p class="paper-venue"><span class="venue">International Journal of Computer Vision, 133(7), 3891–3917, 2025</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1007/s11263-025-02353-2">Paper</a> <span class="sep">/</span> <a href="https://github.com/NiceRingNode/LGGPT">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/ocrgenbench.jpg" alt="OCRGenBench task taxonomy" /></div>
-<div class="pub-text">
-<h3>OCRGenBench: A Comprehensive Benchmark for Evaluating OCR Generative Capabilities</h3>
-<p style="line-height:1.1">
-<font size="2">
-P. Zhang, H. Xu, <strong><u>Jiaxin Zhang</u></strong>, X. Zheng, G. Xu, Y. Zhang, J. Liu, Z. Yang, W. Zhou, et al.<br />
-<i>arXiv preprint</i> arXiv:2507.15085, 2025<br />
-<a href='https://arxiv.org/abs/2507.15085'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/NiceRingNode/OCRGenBench'><img src='https://img.shields.io/github/stars/NiceRingNode/OCRGenBench.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/ocrgenbench.jpg" alt="OCRGenBench task taxonomy" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://arxiv.org/abs/2507.15085">OCRGenBench: A Comprehensive Benchmark for Evaluating OCR Generative Capabilities</a></h4>
+    <p class="paper-authors">P. Zhang, H. Xu, <b>Jiaxin Zhang</b>, X. Zheng, G. Xu, Y. Zhang, J. Liu, Z. Yang, W. Zhou, et al.</p>
+    <p class="paper-venue"><span class="venue-preprint">arXiv 2025</span></p>
+    <p class="paper-links"><a href="https://arxiv.org/abs/2507.15085">Paper</a> <span class="sep">/</span> <a href="https://github.com/NiceRingNode/OCRGenBench">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/m6doc.jpg" alt="M6Doc dataset samples" /></div>
-<div class="pub-text">
-<h3>M6Doc: A Large-Scale Multi-Format, Multi-Type, Multi-Layout, Multi-Language, Multi-Annotation Category Dataset for Modern Document Layout Analysis</h3>
-<p style="line-height:1.1">
-<font size="2">
-H. Cheng, P. Zhang, S. Wu, <strong><u>Jiaxin Zhang</u></strong>, Q. Zhu, Z. Xie, J. Li, K. Ding, L. Jin<br />
-CVPR, 2023<br />
-<a href='https://openaccess.thecvf.com/content/CVPR2023/html/Cheng_M6Doc_A_Large-Scale_Multi-Format_Multi-Type_Multi-Layout_Multi-Language_Multi-Annotation_Category_Dataset_CVPR_2023_paper.html'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/HCIILAB/M6Doc'><img src='https://img.shields.io/github/stars/HCIILAB/M6Doc.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/m6doc.jpg" alt="M6Doc dataset samples" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Cheng_M6Doc_A_Large-Scale_Multi-Format_Multi-Type_Multi-Layout_Multi-Language_Multi-Annotation_Category_Dataset_CVPR_2023_paper.html">M6Doc: A Large-Scale Multi-Format, Multi-Type, Multi-Layout, Multi-Language, Multi-Annotation Category Dataset for Modern Document Layout Analysis</a></h4>
+    <p class="paper-authors">H. Cheng, P. Zhang, S. Wu, <b>Jiaxin Zhang</b>, Q. Zhu, Z. Xie, J. Li, K. Ding, L. Jin</p>
+    <p class="paper-venue"><span class="venue">CVPR, 2023</span></p>
+    <p class="paper-links"><a href="https://openaccess.thecvf.com/content/CVPR2023/html/Cheng_M6Doc_A_Large-Scale_Multi-Format_Multi-Type_Multi-Layout_Multi-Language_Multi-Annotation_Category_Dataset_CVPR_2023_paper.html">Paper</a> <span class="sep">/</span> <a href="https://github.com/HCIILAB/M6Doc">Code</a></p>
+  </div>
+</article>
 
-<span id="tables"></span>
-## Table Structure Recognition
+<h3 class="category" id="tables">Table Structure Recognition</h3>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/tpgcat.jpg" alt="TPGCAT pipeline" /></div>
-<div class="pub-text">
-<h3>Text Prior-Guided Cell Alignment with Transformer for Robust Table Structure Recognition</h3>
-<p style="line-height:1.1">
-<font size="2">
-J. Li, <strong><u>Jiaxin Zhang</u></strong>, Q. Yin, Q. Zhang, X. Zheng, W. Zeng, P. Guo<br />
-<i>Pattern Recognition</i>, 183, 114832, 2026<br />
-<a href='https://doi.org/10.1016/j.patcog.2026.114832'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/vvvvvair/TPGCAT'><img src='https://img.shields.io/github/stars/vvvvvair/TPGCAT.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/tpgcat.jpg" alt="TPGCAT pipeline" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1016/j.patcog.2026.114832">Text Prior-Guided Cell Alignment with Transformer for Robust Table Structure Recognition</a></h4>
+    <p class="paper-authors">J. Li, <b>Jiaxin Zhang</b>, Q. Yin, Q. Zhang, X. Zheng, W. Zeng, P. Guo</p>
+    <p class="paper-venue"><span class="venue">Pattern Recognition, 183, 114832, 2026</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1016/j.patcog.2026.114832">Paper</a> <span class="sep">/</span> <a href="https://github.com/vvvvvair/TPGCAT">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><div class="pub-ph"></div></div>
-<div class="pub-text">
-<h3>Scene Table Structure Recognition with Segmentation Collaboration and Alignment</h3>
-<p style="line-height:1.1">
-<font size="2">
-H. Wang, Y. Xue, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
-<i>Pattern Recognition Letters</i>, 165, 146–153, 2023<br />
-<a href='https://doi.org/10.1016/j.patrec.2022.12.014'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1016/j.patrec.2022.12.014">Scene Table Structure Recognition with Segmentation Collaboration and Alignment</a></h4>
+    <p class="paper-authors">H. Wang, Y. Xue, <b>Jiaxin Zhang</b>, L. Jin</p>
+    <p class="paper-venue"><span class="venue">Pattern Recognition Letters, 165, 146–153, 2023</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1016/j.patrec.2022.12.014">Paper</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><div class="pub-ph"></div></div>
-<div class="pub-text">
-<h3>Complex Table Structure Recognition in the Wild Using Transformer and Identity Matrix-Based Augmentation</h3>
-<p style="line-height:1.1">
-<font size="2">
-B. Chen, D. Peng, <strong><u>Jiaxin Zhang</u></strong>, Y. Ren, L. Jin<br />
-<i>ICFHR</i>, 545–561, 2022<br />
-<a href='https://doi.org/10.1007/978-3-031-21648-0_37'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1007/978-3-031-21648-0_37">Complex Table Structure Recognition in the Wild Using Transformer and Identity Matrix-Based Augmentation</a></h4>
+    <p class="paper-authors">B. Chen, D. Peng, <b>Jiaxin Zhang</b>, Y. Ren, L. Jin</p>
+    <p class="paper-venue"><span class="venue">ICFHR, 545–561, 2022</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1007/978-3-031-21648-0_37">Paper</a></p>
+  </div>
+</article>
 
-<span id="scene-text"></span>
-## Scene Text & OCR
+<h3 class="category" id="scene-text">Scene Text &amp; OCR</h3>
 
-<div class="pub-row">
-<div class="pub-fig"><div class="pub-ph"></div></div>
-<div class="pub-text">
-<h3>QT-TextSR: Enhancing Scene Text Image Super-Resolution via Efficient Interaction with Text Recognition</h3>
-<p style="line-height:1.1">
-<font size="2">
-C. Liu, Q. Jiang, D. Peng, Y. Kong, <strong><u>Jiaxin Zhang</u></strong>, L. Xiong, J. Duan, C. Sun, L. Jin<br />
-<i>Neurocomputing</i>, 620, 129241, 2025<br />
-<a href='https://doi.org/10.1016/j.neucom.2024.129241'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/lcy0604/QT-TextSR'><img src='https://img.shields.io/github/stars/lcy0604/QT-TextSR.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1016/j.neucom.2024.129241">QT-TextSR: Enhancing Scene Text Image Super-Resolution via Efficient Interaction with Text Recognition</a></h4>
+    <p class="paper-authors">C. Liu, Q. Jiang, D. Peng, Y. Kong, <b>Jiaxin Zhang</b>, L. Xiong, J. Duan, C. Sun, L. Jin</p>
+    <p class="paper-venue"><span class="venue">Neurocomputing, 620, 129241, 2025</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1016/j.neucom.2024.129241">Paper</a> <span class="sep">/</span> <a href="https://github.com/lcy0604/QT-TextSR">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/watermeter.png" alt="Water meter reading model" /></div>
-<div class="pub-text">
-<h3>Towards Accurate Readings of Water Meters by Eliminating Transition Error: New Dataset and Effective Solution</h3>
-<p style="line-height:1.1">
-<font size="2">
-<strong><u>Jiaxin Zhang</u></strong>, Daizhen Jia, Chongyu Liu, Dezhi Peng, Bangdong Chen, Xue Gao and Lianwen Jin*<br />
-TIM, 2025<br />
-<a href='https://ieeexplore.ieee.org/document/10909286'><img src='https://img.shields.io/badge/Paper-fedcba'></a>
-<a href='https://github.com/ZZZHANG-jx/WMeter-Reader'><img src='https://img.shields.io/github/stars/ZZZHANG-jx/WMeter-Reader.svg?style=social&label=Star'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/watermeter.png" alt="Water meter reading model" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://ieeexplore.ieee.org/document/10909286">Towards Accurate Readings of Water Meters by Eliminating Transition Error: New Dataset and Effective Solution</a></h4>
+    <p class="paper-authors"><b>Jiaxin Zhang</b>, Daizhen Jia, Chongyu Liu, Dezhi Peng, Bangdong Chen, Xue Gao and Lianwen Jin*</p>
+    <p class="paper-venue"><span class="venue">IEEE TIM, 2025</span></p>
+    <p class="paper-links"><a href="https://ieeexplore.ieee.org/document/10909286">Paper</a> <span class="sep">/</span> <a href="https://github.com/ZZZHANG-jx/WMeter-Reader">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/upocr.jpg" alt="UPOCR unified pixel-level OCR interface" /></div>
-<div class="pub-text">
-<h3>UPOCR: Towards Unified Pixel-Level OCR Interface</h3>
-<p style="line-height:1.1">
-<font size="2">
-D. Peng, Z. Yang, <strong><u>Jiaxin Zhang</u></strong>, C. Liu, Y. Shi, K. Ding, F. Guo, L. Jin<br />
-<i>ICML</i>, 2024<br />
-<a href='https://proceedings.mlr.press/v235/peng24e.html'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/shannanyinxiang/UPOCR'><img src='https://img.shields.io/github/stars/shannanyinxiang/UPOCR.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/upocr.jpg" alt="UPOCR unified pixel-level OCR interface" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://proceedings.mlr.press/v235/peng24e.html">UPOCR: Towards Unified Pixel-Level OCR Interface</a></h4>
+    <p class="paper-authors">D. Peng, Z. Yang, <b>Jiaxin Zhang</b>, C. Liu, Y. Shi, K. Ding, F. Guo, L. Jin</p>
+    <p class="paper-venue"><span class="venue">ICML, 2024</span></p>
+    <p class="paper-links"><a href="https://proceedings.mlr.press/v235/peng24e.html">Paper</a> <span class="sep">/</span> <a href="https://github.com/shannanyinxiang/UPOCR">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/lego.jpg" alt="LEGO self-supervised pretraining" /></div>
-<div class="pub-text">
-<h3>LEGO: Self-Supervised Representation Learning for Scene Text Images</h3>
-<p style="line-height:1.1">
-<font size="2">
-Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
-<i>arXiv preprint</i> arXiv:2408.02036, 2024<br />
-<a href='https://arxiv.org/abs/2408.02036'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/lego.jpg" alt="LEGO self-supervised pretraining" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://arxiv.org/abs/2408.02036">LEGO: Self-Supervised Representation Learning for Scene Text Images</a></h4>
+    <p class="paper-authors">Y. Ren, <b>Jiaxin Zhang</b>, L. Jin</p>
+    <p class="paper-venue"><span class="venue-preprint">arXiv 2024</span></p>
+    <p class="paper-links"><a href="https://arxiv.org/abs/2408.02036">Paper</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/higherlevel.jpg" alt="Multi-scale scene text segmentation examples" /></div>
-<div class="pub-text">
-<h3>Looking from a Higher-Level Perspective: Attention and Recognition Enhanced Multi-Scale Scene Text Segmentation</h3>
-<p style="line-height:1.1">
-<font size="2">
-Y. Ren, <strong><u>Jiaxin Zhang</u></strong>, B. Chen, X. Zhang, L. Jin<br />
-<i>ACCV</i>, 643–659, 2022<br />
-<a href='https://doi.org/10.1007/978-3-031-26293-7_38'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/higherlevel.jpg" alt="Multi-scale scene text segmentation examples" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1007/978-3-031-26293-7_38">Looking from a Higher-Level Perspective: Attention and Recognition Enhanced Multi-Scale Scene Text Segmentation</a></h4>
+    <p class="paper-authors">Y. Ren, <b>Jiaxin Zhang</b>, B. Chen, X. Zhang, L. Jin</p>
+    <p class="paper-venue"><span class="venue">ACCV, 643–659, 2022</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1007/978-3-031-26293-7_38">Paper</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><div class="pub-ph"></div></div>
-<div class="pub-text">
-<h3>TextSRNet: Scene Text Super-Resolution Based on Contour Prior and Atrous Convolution</h3>
-<p style="line-height:1.1">
-<font size="2">
-J. Ma, L. Jin, <strong><u>Jiaxin Zhang</u></strong>, J. Jiang, Y. Xue, M. He<br />
-<i>ICPR</i>, 3252–3258, 2022<br />
-<a href='https://doi.org/10.1109/icpr56361.2022.9956491'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1109/icpr56361.2022.9956491">TextSRNet: Scene Text Super-Resolution Based on Contour Prior and Atrous Convolution</a></h4>
+    <p class="paper-authors">J. Ma, L. Jin, <b>Jiaxin Zhang</b>, J. Jiang, Y. Xue, M. He</p>
+    <p class="paper-venue"><span class="venue">ICPR, 3252–3258, 2022</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1109/icpr56361.2022.9956491">Paper</a></p>
+  </div>
+</article>
 
-<span id="multimodal"></span>
-## Multimodal & Efficiency
+<h3 class="category" id="multimodal">Multimodal &amp; Efficiency</h3>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/beyondtoken.jpg" alt="Decoder-only vs cross-attention architectures" /></div>
-<div class="pub-text">
-<h3>RedundancyLens: Revealing and Exploiting Visual Token Processing Redundancy for Efficient Decoder-Only MLLMs</h3>
-<p style="line-height:1.1">
-<font size="2">
-H. Li, <strong><u>Jiaxin Zhang</u></strong>, W. Liao, D. Peng, K. Ding, L. Jin<br />
-<i>Findings of ACL</i>, 2025<br />
-<a href='https://aclanthology.org/2025.findings-acl.1233/'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/L-Hugh/RedundancyLens'><img src='https://img.shields.io/github/stars/L-Hugh/RedundancyLens.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/beyondtoken.jpg" alt="Decoder-only vs cross-attention architectures" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://aclanthology.org/2025.findings-acl.1233/">RedundancyLens: Revealing and Exploiting Visual Token Processing Redundancy for Efficient Decoder-Only MLLMs</a></h4>
+    <p class="paper-authors">H. Li, <b>Jiaxin Zhang</b>, W. Liao, D. Peng, K. Ding, L. Jin</p>
+    <p class="paper-venue"><span class="venue">Findings of ACL, 2025</span></p>
+    <p class="paper-links"><a href="https://aclanthology.org/2025.findings-acl.1233/">Paper</a> <span class="sep">/</span> <a href="https://github.com/L-Hugh/RedundancyLens">Code</a></p>
+  </div>
+</article>
 
-<span id="handwriting"></span>
-## Handwriting & Signature
+<h3 class="category" id="handwriting">Handwriting &amp; Signature</h3>
 
-<div class="pub-row">
-<div class="pub-fig"><img src="../images/publication_imgs/autoscaler.jpg" alt="AutoScaler framework" /></div>
-<div class="pub-text">
-<h3>AutoScaler: Self Scale Alignment for Handwritten Mathematical Expression Recognition</h3>
-<p style="line-height:1.1">
-<font size="2">
-W. Yang, <strong><u>Jiaxin Zhang</u></strong>, L. Jin<br />
-<i>Pattern Recognition</i>, 2026<br />
-<a href='https://doi.org/10.1016/j.patcog.2025.111872'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-<a href='https://github.com/SCUT-DLVCLab/AutoScaler'><img src='https://img.shields.io/github/stars/SCUT-DLVCLab/AutoScaler.svg?style=social&label=Star' alt='Code'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"><img src="../images/publication_imgs/autoscaler.jpg" alt="AutoScaler framework" loading="lazy" decoding="async"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1016/j.patcog.2025.111872">AutoScaler: Self Scale Alignment for Handwritten Mathematical Expression Recognition</a></h4>
+    <p class="paper-authors">W. Yang, <b>Jiaxin Zhang</b>, L. Jin</p>
+    <p class="paper-venue"><span class="venue">Pattern Recognition, 2026</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1016/j.patcog.2025.111872">Paper</a> <span class="sep">/</span> <a href="https://github.com/SCUT-DLVCLab/AutoScaler">Code</a></p>
+  </div>
+</article>
 
-<div class="pub-row">
-<div class="pub-fig"><div class="pub-ph"></div></div>
-<div class="pub-text">
-<h3>Forgery-Free Signature Verification with Stroke-Aware Cycle-Consistent Generative Adversarial Network</h3>
-<p style="line-height:1.1">
-<font size="2">
-J. Jiang, S. Lai, L. Jin, Y. Zhu, <strong><u>Jiaxin Zhang</u></strong>, B. Chen<br />
-<i>Neurocomputing</i>, 507, 345–357, 2022<br />
-<a href='https://doi.org/10.1016/j.neucom.2022.08.017'><img src='https://img.shields.io/badge/Paper-fedcba' alt='Paper'></a>
-</font>
-</p>
-</div>
-</div>
+<article class="paper">
+  <div class="paper-media contain"></div>
+  <div class="paper-body">
+    <h4 class="paper-title"><a href="https://doi.org/10.1016/j.neucom.2022.08.017">Forgery-Free Signature Verification with Stroke-Aware Cycle-Consistent Generative Adversarial Network</a></h4>
+    <p class="paper-authors">J. Jiang, S. Lai, L. Jin, Y. Zhu, <b>Jiaxin Zhang</b>, B. Chen</p>
+    <p class="paper-venue"><span class="venue">Neurocomputing, 507, 345–357, 2022</span></p>
+    <p class="paper-links"><a href="https://doi.org/10.1016/j.neucom.2022.08.017">Paper</a></p>
+  </div>
+</article>
