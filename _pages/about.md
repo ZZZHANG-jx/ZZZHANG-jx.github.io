@@ -11,9 +11,9 @@ redirect_from:
   <div class="profile-bio">
     <h1 class="profile-name">Jiaxin Zhang</h1>
     <p>
-      I am a researcher working on <strong>document image analysis</strong>,
-      <strong>optical character recognition (OCR)</strong>, and
-      <strong>multimodal document understanding</strong>. My goal is to make machines read
+      I am a researcher working on <strong>vision-language and multimodal models</strong>,
+      with a focus on <strong>document image analysis</strong> and
+      <strong>optical character recognition (OCR)</strong>. My goal is to make machines read
       the way people do — handling a document that is photographed at an angle, folded,
       shadowed, or written in an unfamiliar layout, and turning it into structured,
       machine-readable content.
