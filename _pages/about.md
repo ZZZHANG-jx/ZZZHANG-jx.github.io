@@ -13,7 +13,8 @@ redirect_from:
     <p>
       I received my Ph.D., M.S., and B.S. degrees from
       <strong>South China University of Technology</strong> (SCUT), where I was advised by
-      Prof. Lianwen Jin. I currently work as a researcher in industry.
+      Prof. Lianwen Jin. I am now a researcher at <strong>Huawei</strong>, and previously
+      interned at IntSig (CamScanner), Huawei Cloud, and LG.
     </p>
 
     <p class="profile-links">
