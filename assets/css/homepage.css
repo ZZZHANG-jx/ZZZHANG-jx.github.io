@@ -401,3 +401,15 @@ section > ul {
     justify-content: center;
   }
 }
+
+/* Author footnotes (equal contribution / corresponding author) */
+.author-note {
+  display: inline-block;
+  margin-top: 2px;
+  font-size: 12px;
+  line-height: 1.35;
+  color: var(--muted, #6b7280);
+}
+.author-note sup {
+  font-size: 0.85em;
+}
