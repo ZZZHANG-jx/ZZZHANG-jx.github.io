@@ -19,7 +19,7 @@ redirect_from:
       Prof. Lianwen Jin.
     </p>
     <p>
-      During my Ph.D. studies, I interned at IntSig (CamScanner), Huawei Cloud, and LG.
+      I interned at IntSig (CamScanner), Huawei Cloud, and LG.
     </p>
 
     <p class="profile-links">
