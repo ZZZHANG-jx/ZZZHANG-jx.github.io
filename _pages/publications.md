@@ -13,12 +13,6 @@ author_profile: true
   .pub-text > h3 { margin-top: 0; }
 </style>
 
-<p align="right" style="line-height:1.2">
-<font size="2">
-<strong>Jiaxin Zhang</strong> — full list with PDFs on <a href="https://scholar.google.com/citations?user=pXh33zUAAAAJ&hl=zh-CN">Google Scholar</a>
-</font>
-</p>
-
 ## 2026
 
 -----
