@@ -11,8 +11,9 @@ redirect_from:
   <div class="profile-bio">
     <h1 class="profile-name">Jiaxin Zhang</h1>
     <p>
-      I did my research training at <strong>South China University of Technology</strong>,
-      and I currently work as a researcher in industry.
+      I received my Ph.D., M.S., and B.S. degrees from
+      <strong>South China University of Technology</strong> (SCUT), where I was advised by
+      Prof. Lianwen Jin. I currently work as a researcher in industry.
     </p>
 
     <p class="profile-links">
