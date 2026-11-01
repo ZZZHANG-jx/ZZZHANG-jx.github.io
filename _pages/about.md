@@ -56,11 +56,6 @@ redirect_from:
   <ul class="news">
     <li><span class="news-date">2026</span><strong>Q-DRFormer</strong> accepted to <em>ACM Transactions on Graphics</em>.</li>
     <li><span class="news-date">2026</span>Three papers accepted to <em>Pattern Recognition</em>: DocAligner, AutoScaler, and Text Prior-Guided Cell Alignment.</li>
-    <li><span class="news-date">2025</span><strong>DocKylin</strong> accepted to <em>AAAI 2025</em>.</li>
-    <li><span class="news-date">2025</span><strong>OCRGenBench</strong> released as a benchmark for evaluating OCR generative capabilities.</li>
-    <li><span class="news-date">2025</span>“Smaller but Better” accepted to <em>International Journal of Computer Vision</em>.</li>
-    <li><span class="news-date">2024</span><strong>DocRes</strong> accepted to <em>CVPR 2024</em>; <strong>UPOCR</strong> accepted to <em>ICML 2024</em>.</li>
-    <li><span class="news-date">2023</span><strong>M6Doc</strong> accepted to <em>CVPR 2023</em>.</li>
   </ul>
 </section>
 
