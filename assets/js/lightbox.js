@@ -9,9 +9,9 @@
 
   var lbImg = document.getElementById("lbImg");
 
-  function open(src, alt) {
-    lbImg.src = src;
-    lbImg.alt = alt || "";
+  function open(im) {
+    lbImg.src = im.getAttribute("data-full") || im.src;
+    lbImg.alt = im.alt || "";
     lb.classList.add("open");
     lb.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
@@ -27,7 +27,7 @@
     im.addEventListener("click", function (e) {
       e.preventDefault();
       e.stopPropagation();
-      open(im.src, im.alt);
+      open(im);
     });
   });
 

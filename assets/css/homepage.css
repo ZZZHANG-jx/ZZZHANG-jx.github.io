@@ -417,10 +417,6 @@ section > ul {
 /* Image lightbox */
 .paper-media img {
   cursor: zoom-in;
-  transition: filter 0.15s ease;
-}
-.paper-media img:hover {
-  filter: brightness(0.96);
 }
 
 .lightbox {
