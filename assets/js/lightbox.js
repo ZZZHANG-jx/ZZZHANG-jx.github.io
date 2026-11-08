@@ -11,7 +11,7 @@
 
   function open(im) {
     lbImg.src = im.getAttribute("data-full") || im.src;
-    lbImg.alt = im.alt || "";
+    lbImg.alt = ""; // keep empty so no alt text flashes top-left
     lb.classList.add("open");
     lb.setAttribute("aria-hidden", "false");
     document.body.style.overflow = "hidden";
