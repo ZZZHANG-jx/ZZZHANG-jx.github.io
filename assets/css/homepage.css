@@ -468,3 +468,39 @@ section > ul {
     max-height: 82vh;
   }
 }
+
+/* Footer / visitors */
+.site-footer {
+  max-width: 880px;
+  margin: 44px auto 0;
+  padding: 26px 16px 36px;
+  border-top: 1px solid var(--rule);
+  text-align: center;
+  color: var(--muted);
+}
+.visitors-title {
+  margin: 0 0 12px;
+  font-size: 18px;
+  font-weight: 700;
+  color: var(--text);
+}
+.busuanzi {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 6px 20px;
+  margin-bottom: 16px;
+  font-size: 14.5px;
+}
+.clustrmaps {
+  display: flex;
+  justify-content: center;
+}
+.clustrmaps img {
+  max-width: 100%;
+  height: auto;
+}
+.copyright {
+  margin: 18px 0 0;
+  font-size: 13px;
+}

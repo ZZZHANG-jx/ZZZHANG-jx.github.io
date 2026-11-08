@@ -23,10 +23,29 @@
 {{ content }}
   </main>
 
+  <footer class="site-footer">
+    <h2 class="visitors-title">Visitors</h2>
+    <div class="busuanzi">
+      <span>Total visits: <span id="busuanzi_value_site_pv">—</span></span>
+      <span>Total visitors: <span id="busuanzi_value_site_uv">—</span></span>
+    </div>
+    <div class="clustrmaps">
+      <!-- ClustrMaps: sign up at https://clustrmaps.com, add your site, then replace
+           YOUR_CLUSTRMAPS_ID below with the id/token from your embed code.
+           Prefer the 2D dot map (uncomment the <a><img> block) or the 3D globe (script). -->
+      <!-- <a href="https://clustrmaps.com/site/YOUR_CLUSTRMAPS_ID" title="Visitor map">
+        <img alt="Global visitor map" src="//www.clustrmaps.com/map_v2.png?cl=000000&w=320&t=tt&d=YOUR_CLUSTRMAPS_ID" />
+      </a> -->
+      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=YOUR_CLUSTRMAPS_ID"></script>
+    </div>
+    <p class="copyright">© 2026 Jiaxin Zhang</p>
+  </footer>
+
   <div class="lightbox" id="lightbox" aria-hidden="true" role="dialog" aria-modal="true">
     <button class="lb-close" id="lbClose" aria-label="Close">&times;</button>
     <img id="lbImg" src="" alt="" />
   </div>
+  <script async src="https://busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script>
   <script src="../assets/js/lightbox.js"></script>
 </body>
 </html>
